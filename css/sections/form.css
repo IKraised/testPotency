@@ -1,0 +1,82 @@
+.form{
+    background-color: #dadddd;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+.form-box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.form__title{
+    font-size: 34px;
+    font-weight: 200;
+    color: black;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.form__box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.form__box_name{
+    padding-left: 20px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    background-color: rgb(216, 245, 86);
+    font-size: 24px;
+    border-bottom: 2px solid #000;
+    margin: 20px 0;
+}
+.form__box_tel{
+    padding-left: 20px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    background-color: rgb(216, 245, 86);
+    font-size: 24px;
+    border-bottom: 2px solid #000;
+    margin: 20px 0;
+}
+input{
+    background-color: transparent;
+    border: none;
+    outline: none;
+}
+.form__btn{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    font-size: 28px;
+    color: rgb(216, 245, 86);;
+    background-color: black;
+    padding: 32px 100px;
+    text-transform: uppercase;
+    font-weight: 700;
+    border: 4px solid rgb(216, 245, 86);
+    border-radius: 20px;
+    cursor: pointer;
+    transition: all 0.3s ease-in;
+}
+.form__btn_price{
+    padding-bottom: 10px;
+}
+.form__btn:hover{
+    background-color: #f2f2f2;
+    color: black;
+    transform: translateY(-10px);
+}
+.form__time{
+    overflow: hidden;
+    margin: 10px 10px;
+    font-size: 26px;
+    font-weight: 700;
+    padding: 20px 40px ;
+    background-color: rgb(216, 245, 86);
+    border: 3px solid red;
+}

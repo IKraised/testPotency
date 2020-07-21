@@ -1,0 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Epilogue:wght@300;400;500;700&display=swap');
+@import './sections/header.css';
+@import './sections/slider.css';
+@import './sections/about.css';
+@import './sections/form.css';
+@import './media.css';
+
+.container{
+    max-width: 1080px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
